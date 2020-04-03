@@ -1,4 +1,5 @@
 # COVIDHAX
+###### _plz help think of better name_
 
 ## Description
 This is a widget based application that allows the user to see information that is important to them all in one place.
