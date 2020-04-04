@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "postinstall": "./init.sh",
+    "preinstall": "chmod +x ./init.sh"
+  }
+}

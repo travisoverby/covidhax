@@ -8,8 +8,8 @@ This is a widget based application that allows the user to see information that 
 ## Installation Instructions
 * Enter the following commands in a bash terminal:
   * `git clone git@github.com:travisoverby/covidhax.git`
-  * `cd covidhax && chmod +x ./init.sh`
-  * `./init.sh`
+  * `cd covidhax`
+  * `npm install`
 
 ## Startup Instructions
 * From the application's root directory:
