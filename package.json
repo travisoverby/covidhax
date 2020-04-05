@@ -8,7 +8,9 @@
     "initialize": "chmod +x ./init.sh && ./init.sh",
     "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
     "start:client": "cd client && npm start",
-    "start:server": "cd server && npm run start:dev"
+    "start:server": "cd server && npm run start:dev",
+    "update:client": "cd client && npm install --save",
+    "update:server": "cd server && npm install --save"
   },
   "repository": {
     "type": "git",
