@@ -9,15 +9,8 @@ This is a widget based application that allows the user to see information that 
   * `git clone git@github.com:travisoverby/covidhax.git`
   * `npm run initialize`
 
-* Optional to use concurrent server:
-  * `npm install -g concurrently`
-
 ## Startup Instructions
 * From the application's root directory:
-  * `npm run start:client`
-  * `npm run start:server`
-
-* Or, to use single concurrent server:
   * `npm start`
 
 ## Widget Ideas
