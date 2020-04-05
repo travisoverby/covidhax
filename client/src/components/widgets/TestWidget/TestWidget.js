@@ -4,12 +4,13 @@ import WidgetBox from '../../WidgetBox/WidgetBox';
 
 const testWidget = (props) => {
   return (
-    <WidgetBox>
+    <WidgetBox title={'Test Widget'} summary={'summary text'}>
       <div className={classes.TestWidget}>
-        <h4>TestWidget</h4>
+        <input type="button" value={'Button text'}/>
       </div>
     </WidgetBox>
   );
 };
 
 export default testWidget;
+
