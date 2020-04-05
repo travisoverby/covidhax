@@ -5,7 +5,7 @@ const endpoint = 'https://api.github.com/users/bananno';
 
 @Injectable()
 export class ZipcodeService {
-  constructor(private httpService: HttpService) {}
+  constructor(private httpService?: HttpService) {}
 
   currentZipCode: string;
 
