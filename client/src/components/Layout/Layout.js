@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from '../Home';
 import { Login } from '../User/login'
+import { Registration } from '../User/registration';
 
 class Layout extends Component {
 
@@ -21,6 +22,9 @@ class Layout extends Component {
               </Route>
               <Route path="/user/login">
                 <Login />
+              </Route>
+              <Route path="/user/registration">
+                <Registration />
               </Route>
             </Switch>
           </Router>
