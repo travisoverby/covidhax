@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from '../Home';
 import { Login } from '../User/login'
 import { Registration } from '../User/registration';
+import Dashboard from '../Charity/Dashboard';
 
 class Layout extends Component {
 
@@ -14,6 +15,8 @@ class Layout extends Component {
       <Container fluid={true}>
         <div className={classes.layout}>
           <h1 className={classes.header}>Covidhax landing page</h1>
+
+          <TestWidget/>
 
           <Router>
             <Switch>
@@ -26,10 +29,11 @@ class Layout extends Component {
               <Route path="/user/registration">
                 <Registration />
               </Route>
+              <Route path="/charities/dashboard">
+                <Dashboard />
+              </Route>
             </Switch>
           </Router>
-
-          <TestWidget/>
 
           <div className={classes.zipcode}>
             <label for="zipcode">Zipcode:</label>
