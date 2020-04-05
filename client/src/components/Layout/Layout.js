@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Home from '../Home';
 import { Login } from '../User/login'
+import { Registration } from '../User/registration';
 
 class Layout extends React.Component {
 
@@ -22,6 +23,9 @@ class Layout extends React.Component {
             </Route>
             <Route path="/user/login">
               <Login />
+            </Route>
+            <Route path="/user/registration">
+              <Registration />
             </Route>
           </Switch>
         </Router>
