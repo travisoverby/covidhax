@@ -1,7 +1,8 @@
 import { HttpService, Injectable } from '@nestjs/common';
 import { Observable } from 'rxjs';
+import { IPINFO_TOKEN } from '../config/token';
 
-const endpoint = 'https://api.github.com/users/bananno';
+const endpoint = `https://ipinfo.io/?token=${IPINFO_TOKEN}`;
 
 @Injectable()
 export class ZipcodeService {
